@@ -79,16 +79,30 @@ body {
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width:580px) and (max-width: 768px) {
     .logo img {
         width: 80px;
     }
     .countdown-container {
-        margin-top:80px ;
+        margin-top:50px;
         width: 90%;
         font-size: 12px;
         height: max-content;
-        padding:0px 10px;
+        padding:0px 10px 10px 10px;
+        
+        
+    }
+    .countdown-container p{
+        font-size: 14px;
+    }
+    .countdown div span {
+        
+        margin: 10px;
+        
+    }
+    .countdown div small {
+        
+        margin: 5px;
         
     }
 }
@@ -99,7 +113,7 @@ body {
     }
 
     .countdown-container {
-        margin-top:150px ;
+        margin-top:130px ;
         width: 90%;
         font-size: 10px;
         height: max-content;
