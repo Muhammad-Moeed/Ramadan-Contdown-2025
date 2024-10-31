@@ -26,8 +26,8 @@ body {
 }
 
 .logo img {
-    display: block;
-    width: 100px;
+    /* display: block; */
+    width: 150px;
     margin: 0 auto 10px auto;
 }
 
@@ -83,11 +83,19 @@ body {
     .logo img {
         width: 80px;
     }
+    .countdown-container {
+        margin-top:80px ;
+        width: 90%;
+        font-size: 12px;
+        height: max-content;
+        padding:0px 10px;
+        
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .logo img {
-        width: 60px;
+        width: 80px;
     }
 
     .countdown-container {
