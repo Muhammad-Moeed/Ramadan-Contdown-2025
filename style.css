@@ -23,6 +23,7 @@ body {
     text-align: center;
     color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
 }
 
 .logo img {
@@ -33,7 +34,7 @@ body {
 
 .countdown-container h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 70px;
+    font-size:600%;
     color: #fff;
 }
 
