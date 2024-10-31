@@ -18,7 +18,7 @@ body {
     backdrop-filter: blur(2px);
     border-radius: 20px;
     padding: 0px 40px 40px 50px ;
-    max-width: 800px;
+    width: 80%;
     margin: 20px auto;
     text-align: center;
     color: white;
@@ -96,12 +96,10 @@ body {
         font-size: 14px;
     }
     .countdown div span {
-        
         margin: 10px;
         
     }
     .countdown div small {
-        
         margin: 5px;
         
     }
